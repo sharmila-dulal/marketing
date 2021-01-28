@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+section#neweletter {
+    background: #363b8c;
+}
+
+/*=====================
+Newsletter form
+=====================*/
+
+#neweletter .newsletter-section form::before, 
+#neweletter .newsletter-section form::after {
+	content: "";
+	display: table;
+}
+
+#neweletter .newsletter-section form::after {
+	clear: both;
+}
+#neweletter .newsletter-section form{
+	width: 100%;
+	
+}
+#neweletter .newsletter-section label {
+	display: none;
+}
+
+#neweletter .newsletter-section input[type="text"]{width: 38%;
+    display: block;
+    float: left;
+    margin-right: 2%;
+
+} 
+#neweletter .newsletter-section input[type="email"]{    width: 38%;
+    display: block;
+    margin-right: 2%;
+    float: left;
+
+}
+#neweletter .newsletter-section .tnp-submit button{}
+
+#neweletter .newsletter-section input[type="text"],#neweletter .newsletter-section input[type="email"] {
+	height: 38px;
+	line-height: 38px;
+	padding: 5px 15px;
+	font-size: 0.888em;
+	border-radius: 0;
+	border: none;
+	background: #ffffff;
+	color: #000;
+	font-size: 12px;
+}
+
+#neweletter .newsletter-section input[type="submit"] {
+	padding: 0;
+	height: 38px;
+	line-height: 38px;
+	width: 120px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+
+#neweletter{padding: 30px 30px;}
+#neweletter .newsletter-section {
+    float: left;
+    width: 70%;
+  
+}
+
+#neweletter .news_letter_description {
+    float: left;
+    width: 30%;
+    color: #ffffff;
+    font-size: 10px;
+}
+.single .sticky-inner ul.post-categories {
+    margin: 0!important;
+    padding: 0!important;
+    list-style: none!important;
+}
+
+.entry-meta ul.post-categories {
+    margin: 0;
+    padding: 0;
+}
+
+.entry-meta ul.post-categories li{
+	list-style: none!important;
+}
+.widget_rrtc_icon_text_widget .widget-title a{color: inherit;
+text-decoration: none;
+    font-size: 19px;
+}
+.widget_rrtc_icon_text_widget .content p{
+	font-size: 18px;
+}
+.single .sticky-inner ul li {
+list-style: none!important;
+	}
+.widget_rrtc_icon_text_widget .widget-title {font-size: 18px;} 
+.widget_rrtc_icon_text_widget .widget-title h2 a{color: inherit;}	
+.banner-caption .item-desc div#wpcf7-f108-p109-o1 {
+    width: 70%!important;
+    margin: 0 auto;
+    
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+    float: left;
+    width: 60%;
+    margin: 0 2% 0 0;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    float: left;
+    width: 38%;
+    padding: 11px 0;
+
+}
+
+.spam-title {
+   margin: 0;
+    color: #ccc;
+    font-size: 15px;
+    padding: 5px 0;
+}
